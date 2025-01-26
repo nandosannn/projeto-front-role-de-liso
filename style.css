@@ -70,7 +70,7 @@ section.filtro {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 231px;
+    margin: 40px auto 30px auto;
 }
 
 div.icones {
@@ -106,31 +106,49 @@ div.icones p{
 div.icones a {
     text-decoration: none;
 }
+
 section.filtro-secudario {
     margin: auto;
+    margin-bottom: 10px;
     width: 1010px;
-    height: 122px;
     font-family: 'Archivo', sans-serif;
     font-weight: 550;
 }
 
 div.container-filtro-secundario{
     height: 34px; /* Define uma altura visível */
-    background-color: #C1E9D8;
-    padding-top: 10px;
+    display: flex;
 }
-
 
 section.filtro-secudario a {
     text-decoration: none;
-    margin-right: 90px;
+    font-size: 12px;
+    margin: auto 20px auto 5px;
     color: black;
+    padding: 8px;
+    background-color: #C1E9D8;
+    border-radius: 10px;
+}
+
+section.filtro-secudario a:hover {
+    background-color: #C1E9D8;
+}
+
+div.titulo-container-eventos-encontrados {
+    width: 1010px;
+    margin: auto;
+    margin-bottom: 8px;
 }
 
 div.container-eventos-encontrados {
     width: 1010px;
-    height: 732px;
+    height: 630px;
     margin: auto;
+    overflow-y: auto;
+}
+
+.container-eventos-encontrados::-webkit-scrollbar {
+    display: none;
 }
 
 div.container-eventos-encontrados h1 {
@@ -206,6 +224,36 @@ div.container-evento div.informacoes-evento-encontrado p.descricao {
     line-height: 1.6;
 }
 
+div.search-bar > input {
+    padding: 5px 10px;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style:solid;
+    min-width: 400px;
+    min-height: 30px;
+    border-color: #F67704;
+    color: rgb(109, 109, 109);;
+}
+
+div.search-bar > input:focus{
+    outline-color: #F67704;
+}
+
+div.search-bar > input::placeholder{
+    color: rgb(109, 109, 109);
+}
+
+button.btn-cadastrar {
+    padding: 8px 10px;
+    border-radius: 10px;
+    border-style: none;
+    color: #f8f8f8;
+    background-color: #F67704;
+}
+
+button.btn-cadastrar:hover {
+    background-color: #ff8b1e;
+}
 
 
 
