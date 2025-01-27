@@ -72,7 +72,7 @@ button.btn-cadastrar:hover {
 
 header {
     height: 336px;
-    background-color: #c4eadb;
+    background-color: #a6e9ce;
     font-size: 24px;
 }
 
@@ -173,12 +173,12 @@ div.titulo-container-eventos-encontrados {
 
 div.container-eventos-encontrados {
     width: 1010px;
-    height: 630px;
+    height: 650px;
     margin: auto;
+    margin-bottom: 20px;
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .container-eventos-encontrados::-webkit-scrollbar {
@@ -205,8 +205,8 @@ div.container-evento {
     background-color: #E6F5EF;
     margin: auto;
     padding: 0;
-    margin-bottom: 50px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 60px;
 }
 
 div.container-evento div.informacoes-evento-encontrado {
@@ -222,17 +222,17 @@ div.container-evento div.imagem-evento-encontrado {
 }
 
 div.container-evento div.informacoes-evento-encontrado h1{
-    font-size: 30px;
+    font-size: 28px;
     margin-left: 20px;
     margin-top: 10px;
 }
 
-
 div.container-evento div.informacoes-evento-encontrado p{
     font-size: 18px;
     font-family: 'Archivo', sans-serif;
-    font-weight: 550;
+    font-weight: 500;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 div.container-evento div.informacoes-evento-encontrado p.data-hora {
