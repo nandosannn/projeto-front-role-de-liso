@@ -62,12 +62,12 @@ button.btn-cadastrar {
     padding: 8px 10px;
     border-radius: 10px;
     border-style: none;
-    color: #f8f8f8;
-    background-color: #F67704;
+    color: #f8f8f8; 
+    background-color: #e97b15;
 }
 
 button.btn-cadastrar:hover {
-    background-color: #ff8b1e;
+    background-color: #ff8411;
 }
 
 header {
@@ -162,7 +162,7 @@ section.filtro-secudario a {
 }
 
 section.filtro-secudario a:hover {
-    background-color: #C1E9D8;
+    background-color: #c8f5e2;
 }
 
 div.titulo-container-eventos-encontrados {
