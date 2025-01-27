@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script defer src="categories.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <title>Rolê de Liso</title>
 </head>
 
@@ -23,7 +24,6 @@
             <!-- Botão "Cadastrar Evento" no lado direito -->
             <button class="btn-cadastrar">Cadastrar Evento</button>
         </div>
-
     </nav>
 
     <header>
@@ -41,8 +41,8 @@
             <div class="musica">
                 <a href="">
                     <div class="icone">
-                        <img src="icones/musica.png" alt="musica" width="90px" height="90px">
-                    </div>
+                        <img src="icones/musica.png" alt="musica" width="70px" height="70px">
+                    </div>   
                     <p>
                         Música
                     </p>
@@ -52,7 +52,7 @@
             <div class="educacao">
                 <a href="">
                     <div class="icone">
-                        <img src="icones/chapeu-da-graduacao.png" alt="musica" width="90px" height="90px">
+                        <img src="icones/chapeu-da-graduacao.png" alt="musica" width="70px" height="70px">
                     </div>
                     <p>
                         Educação
@@ -63,10 +63,10 @@
             <div class="artes-visuais">
                 <a href="">
                     <div class="icone">
-                        <img src="icones/estudos-de-arte.png" alt="musica" width="90px" height="90px">
+                        <img src="icones/estudos-de-arte.png" alt="musica" width="70px" height="70px">
                     </div>
                     <p>
-                        Artes visuais
+                        Artes
                     </p>
                 </a>
             </div>
@@ -74,7 +74,7 @@
             <div class="cinema">
                 <a href="">
                     <div class="icone">
-                        <img src="icones/camera-de-video.png" alt="musica" width="90px" height="90px">
+                        <img src="icones/camera-de-video.png" alt="musica" width="70px" height="70px">
                     </div>
                     <p>
                         Cinema
@@ -85,7 +85,7 @@
             <div class="literatura">
                 <a href="">
                     <div class="icone">
-                        <img src="icones/abra-o-livro.png" alt="musica" width="90px" height="90px">
+                        <img src="icones/abra-o-livro.png" alt="musica" width="70px" height="70px">
                     </div>
                     <p>
                         Literatura
@@ -96,7 +96,7 @@
             <div class="teatro">
                 <a href="">
                     <div class="icone">
-                        <img src="icones/teatro.png" alt="musica" width="90px" height="90px">
+                        <img src="icones/teatro.png" alt="musica" width="70px" height="70px">
                     </div>
                     <p>
                         Teatro
@@ -109,27 +109,37 @@
     <section class="eventos-encontrados">
 
         <div class="titulo-container-eventos-encontrados">
-            <h1>Eventos encontrados</h1>
+            <h1>Eventos gerais</h1>
             <hr>
         </div>
 
-        <section class="filtro-secudario">
+        <section class="filtro-secundario">
             <div class="container-filtro-secundario">
-                <a href="">Todos</a>
-                <a href="">Hoje</a>
-                <a href="">Gratuitos</a>
-                <a href="">Final de semana</a>
+                <a href="#" class="filter-btn" data-filter="Todos">Todos</a>
+                <a href="#" class="filter-btn" data-filter="Hoje">Hoje</a>
+                <a href="#" class="filter-btn" data-filter="Gratuitos">Gratuitos</a>
+                <a href="#" class="filter-btn" data-filter="Final de semana">Final de semana</a>
             </div>
         </section>
 
         <div class="container-eventos-encontrados"></div>
     </section>
 
-    <footer>
+    <section class="recomendados">
         <div></div>
-        <div></div>
-    </footer>
+    </section>
 
+    <footer>
+        <div>
+            <p>Desenvolvido por 
+                <a href="https://github.com/nandosannn" target="_blank">Fernando Santos</a>,
+                <a href="https://github.com/gabrielly-freire" target="_blank">Gabrielly Freire</a> e
+                <a href="https://github.com/Gustaa13" target="_blank">Gustavo Oliveira</a> 
+            </p>
+        </div>
+    </footer>
+    
+    <script src="styles.js"></script>
 </body>
 
 </html>
