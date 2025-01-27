@@ -170,9 +170,12 @@ section.filtro-secundario a {
     border-radius: 10px;
 }
 
+section.filtro-secundario a:hover {
+    background-color: var(--cor-secundaria-tom-claro);
+}
+
 .filter-btn.foco {
     background-color: var(--cor-secundaria-tom-claro);
-    color: var(--cor-fundo);
 }
 
 div.titulo-container-eventos-encontrados {
