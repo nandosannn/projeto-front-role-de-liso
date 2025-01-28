@@ -39,7 +39,7 @@ body {
 }
 
 nav {
-    height: 90px;
+    height: 95px;
 }
 
 nav>div {
@@ -61,6 +61,15 @@ div.search-bar > input {
     min-height: 30px;
     border-color: var(--cor-secundaria);
     color: rgb(109, 109, 109);;
+}
+
+nav div.logo {
+    width: 150px;
+    height: 80px;
+    background-image: url('icones/logo.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 div.search-bar > input:focus{
